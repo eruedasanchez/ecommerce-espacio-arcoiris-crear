@@ -2,14 +2,21 @@ import type { Config } from "tailwindcss";
 
 const config: Config = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/*.{js,ts,jsx,tsx,mdx,css}",
+    "./src/**/*.{tsx,css}"
   ],
   theme: {
     fontSize: {
+      'font1-tabletL': '5rem',
+      'font1-tabletS': '3.75rem',
+      'font1-mobile': '3rem',
       'font1': '2.5rem',
+      'font2-tabletS': '2.375rem',
+      'font2-mobile': '2rem',
       'font2': '1.75rem',
+      'font3-tabletS': '2.25rem',
       'font3': '1.625rem',
       'font4': '1.5rem',
       'font5': '1.375rem',
@@ -24,8 +31,8 @@ const config: Config = {
     },
     extend: {
       screens: {
-        mobile: "490px",
-        tabletS: "600px",
+        mobile: "480px",
+        tabletS: "580px",
         tablet: "768px",
         tabletL: "992px",
         desktop: "1200px"
@@ -47,7 +54,11 @@ const config: Config = {
       transitionTimingFunction: {
         'cubic-out': 'cubic-bezier(0.51, 0.03, 0.64, 0.28)',
         'cubic-in': 'cubic-bezier(0.33, 0.85, 0.56, 1.02)'
-      }
+      },
+      boxShadow: {
+        'header': '0 2px 20px rgba(0, 0, 0, 0.1)',
+        'header-actions': '0 -2px 20px rgba(0, 0, 0, 0.1)',
+      },
     },
   },
   plugins: [],

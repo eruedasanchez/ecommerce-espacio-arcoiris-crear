@@ -5,7 +5,7 @@
 @layer base {
     html { @apply text-sonicSilver scroll-smooth; }
 
-    body { @apply bg-white py-[70px];}
+    body { @apply bg-white py-[70px] h-[300vh] tabletL:py-[0px];}
 
     li { @apply list-none; }
 
@@ -16,5 +16,13 @@
     button { @apply text-left cursor-pointer; }
 
     input { @apply w-full outline-middleBlueGreen; }
-
 }
+
+@layer utilities {
+    .container {
+        @apply px-[15px] tabletS:max-w-[550px] tabletS:mx-auto tablet:max-w-[700px] tabletL:max-w-[950px] ;
+    }
+}
+
+.all-unset { all: unset; }
+
