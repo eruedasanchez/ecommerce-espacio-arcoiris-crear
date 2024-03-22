@@ -16,7 +16,7 @@ export default function RootLayout({ children, } : Readonly<{ children: React.Re
     <html lang="en">
       <body className={`${jost.className}`}>
           <Header/>
-          <main>{children}</main>
+          <main className="">{children}</main>
           <Footer/>
         </body>
     </html>

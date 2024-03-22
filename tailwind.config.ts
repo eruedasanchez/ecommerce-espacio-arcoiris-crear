@@ -9,6 +9,7 @@ const config: Config = {
   ],
   theme: {
     fontSize: {
+      'font1-desktop': '6.25rem',
       'font1-tabletL': '5rem',
       'font1-tabletS': '3.75rem',
       'font1-mobile': '3rem',

@@ -39,6 +39,18 @@ export interface NavbarOpenButtonProps {
     handleOpenMenu: () => void,
 };
 
+/*-----------------------------------*\
+    #HERO SECTION TYPES & INTERFACES
+\*-----------------------------------*/
+
+export interface HeroSectionProps {
+    heroHeader: string; 
+    heroTitle: string;
+    heroButton: string
+};
+
+
+
 
 
 

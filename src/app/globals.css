@@ -5,7 +5,7 @@
 @layer base {
     html { @apply text-sonicSilver scroll-smooth; }
 
-    body { @apply bg-white py-[70px] h-[300vh] tabletL:py-[0px];}
+    body { @apply bg-white py-[70px] tabletL:py-[0px] h-[300vh];}
 
     li { @apply list-none; }
 
@@ -16,13 +16,44 @@
     button { @apply text-left cursor-pointer; }
 
     input { @apply w-full outline-middleBlueGreen; }
+
+    h3 > a { @apply text-inherit} 
 }
 
 @layer utilities {
-    .container {
-        @apply px-[15px] tabletS:max-w-[550px] tabletS:mx-auto tablet:max-w-[700px] tabletL:max-w-[950px] ;
+    .container { @apply px-[15px] tabletS:max-w-[550px] tabletS:mx-auto tablet:max-w-[700px] tabletL:max-w-[950px] desktop:max-w-[1150px]; }
+
+    .h1, .h2, .h3, .h4 { @apply text-white font-semibold; }
+
+    .h1 { 
+        @apply text-font1 mobile:text-font1-mobile tabletS:text-font1-tabletS 
+        tabletL:text-font1-tabletL desktop:text-font1-desktop
+        leading-none; 
+    }
+
+    .h2 { @apply text-font2 mobile:text-font2-mobile tabletS:text-font2-tabletS; }
+    
+    .h3 { @apply text-font6; }
+
+    .h4 { @apply text-font7 font-medium; }
+
+    .btn {
+        @apply bg-eerieBlack text-white font-semibold h-[60px] px-[50px] 
+        border border-solid border-eerieBlack rounded-md
+        flex justify-center items-center;
+    }
+    
+    .btn-primary { @apply hover:bg-white hover:text-eerieBlack hover:border-eerieBlack; }
+
+    .btn-secondary {
+        @apply h-[50px] bg-white text-eerieBlack border-white
+        hover:bg-eerieBlack hover:text-white hover:border-eerieBlack; 
+    }
+
+    .btn-outline {
+        @apply h-[50px] bg-white text-eerieBlack border-eerieBlack px-[40px]
+        hover:bg-eerieBlack hover:text-white hover:border-eerieBlack;
     }
 }
 
 .all-unset { all: unset; }
-
