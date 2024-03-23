@@ -49,6 +49,20 @@ export interface HeroSectionProps {
     heroButton: string
 };
 
+/*--------------------------------------*\
+    #SERVICE SECTION TYPES & INTERFACES
+\*--------------------------------------*/
+
+export interface ServiceItemProps {
+    src: string;
+    alt: string;
+    imageWidth: number;
+    imageHeight: number;
+    serviceTitle: string;
+    serviceSubtitle: string
+};
+
+
 
 
 

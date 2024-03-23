@@ -1,4 +1,5 @@
 import HeroSection from "@/components/HeroSection";
+import ServiceSection from "@/components/ServiceSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
         heroTitle='Animate a Crear con nosotros'
         heroButton='Comprar ahora'
       />
+      <ServiceSection/>
     </>
   );
 }

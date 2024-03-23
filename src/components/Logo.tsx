@@ -5,7 +5,7 @@ const Logo = () => {
     return (
         <Link href={"/"} className="tabletL:mx-auto">
             <Image
-                src={"/logo-esp-arcoiris-crear.png"}
+                src={"/images/logo-esp-arcoiris-crear.png"}
                 alt="logo-espacio-arcoiris-crear"
                 width={100}
                 height={100}
