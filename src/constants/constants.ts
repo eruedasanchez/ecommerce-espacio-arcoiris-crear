@@ -106,7 +106,62 @@ export const serviceList = [
     }
 ]
 
-
+export const categoryList = [
+    {
+        id: 1,
+        src: '/images/category-1.jpg',
+        alt: "sunglass",
+        link: {
+            href: '/sunglass',
+            label: 'Sunglass'
+        }
+    },
+    {
+        id: 2,
+        src: '/images/category-2.jpg',
+        alt: "outdoor",
+        link: {
+            href: '/outdoor',
+            label: 'Outdoor'
+        }
+    },
+    {
+        id: 3,
+        src: '/images/category-3.jpg',
+        alt: "winter",
+        link: {
+            href: '/winter',
+            label: 'Winter'
+        }
+    },
+    {
+        id: 4,
+        src: '/images/category-4.jpg',
+        alt: "footwear",
+        link: {
+            href: '/footwear',
+            label: 'Footwear'
+        }
+    },
+    {
+        id: 5,
+        src: '/images/category-5.jpg',
+        alt: "jewelry",
+        link: {
+            href: '/jewelry',
+            label: 'Jewelry'
+        }
+    },
+    {
+        id: 6,
+        src: '/images/category-6.jpg',
+        alt: "cap",
+        link: {
+            href: '/cap',
+            label: 'Caps'
+        }
+    }
+]
 
 export const keys = {
     ESC: 'Escape'

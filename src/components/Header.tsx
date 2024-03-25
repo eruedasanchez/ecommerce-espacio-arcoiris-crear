@@ -10,6 +10,7 @@ import MobileMenu from "./MobileMenu";
 import Navbar from "./Navbar";
 
 // transition1: transition-opacity duration-250 ease
+// transition2: transition-opacity duration-750 ease
 
 const Header = () => {
     const [headerActive, setHeaderActive] = useState(false);

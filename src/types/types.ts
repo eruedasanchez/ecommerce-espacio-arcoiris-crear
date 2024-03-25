@@ -62,6 +62,17 @@ export interface ServiceItemProps {
     serviceSubtitle: string
 };
 
+/*--------------------------------------*\
+    #CATEGORY SECTION TYPES & INTERFACES
+\*--------------------------------------*/
+
+export interface CategoryItemProps {
+    src: string;
+    alt: string;
+    href: string;
+    label: string;
+    firstSecondItem: boolean
+}
 
 
 
