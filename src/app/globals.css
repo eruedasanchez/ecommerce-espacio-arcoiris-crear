@@ -58,6 +58,8 @@
     .section { @apply py-section-padding; }
 
     .w-100 { @apply w-full; }
+
+    .section-title { @apply text-center mb-[30px]}
 }
 
 .all-unset { all: unset; }

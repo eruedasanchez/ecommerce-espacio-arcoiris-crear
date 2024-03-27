@@ -1,4 +1,10 @@
-import { BriefcaseBusiness, Heart, Search, User } from "lucide-react";
+import {
+    BriefcaseBusiness, 
+    Eye, 
+    Heart, 
+    Search, 
+    User
+} from "lucide-react";
 
 export const navbarLinks = [
     {
@@ -162,6 +168,126 @@ export const categoryList = [
         }
     }
 ]
+
+export const filterList = [
+    {
+        id: 1,
+        label: "Best Seller"
+    },
+    {
+        id: 2,
+        label: "Hot Collection"
+    },
+    {
+        id: 3,
+        label: "Trendy"
+    },
+    {
+        id: 4,
+        label: "New Arrival"
+    }
+]
+
+export const productsList = [
+    {
+        id: 1,
+        src: '/images/product-1.jpg',
+        alt: 'varsi-leather-bag',
+        label: 'Varsi Leather Bag',
+        price: 48.75,
+        regularPrice: 65.00,
+        cardBadge: '-25%'
+    },
+    {
+        id: 2,
+        src: '/images/product-2.jpg',
+        alt: 'fit-twill-shirt-for-woman',
+        label: 'Fit Twill Shirt for woman',
+        price: 62.00,
+        cardBadge: 'New'
+    },
+    {
+        id: 3,
+        src: '/images/product-3.jpg',
+        alt: 'gran-atlantic-chukka-boots',
+        label: 'Gran Atlantic Chukka Boots',
+        price: 32.00
+    },
+    {
+        id: 4,
+        src: '/images/product-4.jpg',
+        alt: 'womens-faux-trim-shirt',
+        label: 'Womens Faux-Trim Shirt',
+        price: 84.00
+    },
+    {
+        id: 5,
+        src: '/images/product-5.jpg',
+        alt: 'soft-touch-interlock-polo',
+        label: 'Soft Touch Interlock Polo',
+        price: 45.00
+    },
+    {
+        id: 6,
+        src: '/images/product-6.jpg',
+        alt: 'casmart-smart-watch',
+        label: 'Casmart Smart Watch',
+        price: 30.00,
+        regularPrice: 38.00 
+    },
+    {
+        id: 7,
+        src: '/images/product-7.jpg',
+        alt: 'casmart-smart-glass',
+        label: 'Casmart Smart Glass',
+        price: 25.00,
+        regularPrice: 39.00
+    },
+    {
+        id: 8,
+        src: '/images/product-8.jpg',
+        alt: 'cotton-shirt-for-men',
+        label: 'Cotton Shirt for Men',
+        price: 85.00,
+        regularPrice: 99.00
+    },
+    {
+        id: 9,
+        src: '/images/product-9.jpg',
+        alt: 'double-breasted-blazer',
+        label: 'Double-breasted Blazer',
+        price: 32.00,
+    },
+    {
+        id: 10,
+        src: '/images/product-10.jpg',
+        alt: 'ribbed-cotton-bodysuits',
+        label: 'Ribbed Cotton Bodysuits',
+        price: 71.00,
+        cardBadge: 'New'
+    }
+]
+
+export const cardActions = [
+    {
+        id: 1,
+        icon: Eye,
+        label: 'Quick View'
+    },
+    {
+        id: 2,
+        icon: BriefcaseBusiness,
+        label: 'Add to cart'
+    },
+    {
+        id: 3,
+        icon: Heart,
+        label: 'Add to Wishlist'
+    }
+]
+
+
+
 
 export const keys = {
     ESC: 'Escape'

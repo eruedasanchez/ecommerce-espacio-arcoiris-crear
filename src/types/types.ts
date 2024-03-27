@@ -74,6 +74,46 @@ export interface CategoryItemProps {
     firstSecondItem: boolean
 }
 
+/*--------------------------------------*\
+    #PRODUCT SECTION TYPES & INTERFACES
+\*--------------------------------------*/
+
+export interface FilterButtonProps { label: string; }
+
+export interface ProductItemProps { 
+    src: string;
+    alt: string; 
+    label: string; 
+    price: number;
+    regularPrice?: number;
+    cardBadge?: string;
+}
+
+export interface CardBannerProps { 
+    src: string;
+    alt: string;
+    cardBadge?: string; 
+}
+
+export interface CardActionButtonProps {
+    icon: LucideIcon; 
+    label: string;
+}
+
+export interface CardContentProps {
+    label: string;
+    price: number;
+    regularPrice?: number;
+}
+
+
+
+
+
+
+
+
+
 
 
 
