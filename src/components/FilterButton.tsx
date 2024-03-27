@@ -1,15 +1,17 @@
 import { FilterButtonProps } from "@/types/types";
 
-const FilterButton = ({ label } : FilterButtonProps ) => {
+const FilterButton = ({ label, activeFilter, setCurrentFilter } : FilterButtonProps ) => {
     return (
         <li>
-            <button className="text-inherit text-font7 font-medium">
+            <button 
+                className={`text-inherit text-font7 font-medium ${activeFilter && 'text-middleBlueGreen'}`}
+                onClick={() => setCurrentFilter(label)}
+                >
                 {label}
-            </button> {/* filter-btn */}
+            </button> 
         </li>
     );
 }
 
 export default FilterButton;
 
-// text-eerieBlack agregar al button cada vez que se clickea una categoria

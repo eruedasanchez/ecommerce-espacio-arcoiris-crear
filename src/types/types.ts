@@ -78,7 +78,11 @@ export interface CategoryItemProps {
     #PRODUCT SECTION TYPES & INTERFACES
 \*--------------------------------------*/
 
-export interface FilterButtonProps { label: string; }
+export interface FilterButtonProps { 
+    label: string;
+    activeFilter: boolean;
+    setCurrentFilter: React.Dispatch<React.SetStateAction<string>>;
+}
 
 export interface ProductItemProps { 
     src: string;
@@ -106,7 +110,9 @@ export interface CardContentProps {
     regularPrice?: number;
 }
 
-
+export interface CardActionsProps {
+    activeCardActions: boolean;
+}
 
 
 

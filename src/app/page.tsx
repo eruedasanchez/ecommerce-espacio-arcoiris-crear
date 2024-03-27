@@ -17,3 +17,7 @@ export default function Home() {
     </>
   );
 }
+
+// transition1: transition-opacity duration-250 ease
+// transition2: transition-opacity duration-750 ease
+

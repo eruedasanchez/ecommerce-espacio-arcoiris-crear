@@ -2,7 +2,6 @@ import FilterList from "./FilterList";
 import ProductsList from "./ProductsList";
 
 const ProductSection = () => {
-    // text-eerieBlack en el boton de filter-btn si esta activo
     return (
         <section className="section product">
             <div className="container">

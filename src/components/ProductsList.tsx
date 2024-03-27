@@ -4,7 +4,7 @@ import ProductItem from "./ProductItem";
 const ProductsList = () => {
     return (
         <ul className="flex flex-wrap justify-center 
-        gap-y-[50px] gap-x-[25px] mb-[60px]"> {/* product-list */}
+        gap-y-[50px] gap-x-[25px] mb-[60px]">
             {
                 productsList.map((product) => (
                     <ProductItem 
