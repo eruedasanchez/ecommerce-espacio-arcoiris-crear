@@ -286,8 +286,35 @@ export const cardActions = [
     }
 ]
 
-
-
+export const blogList = [
+    {
+        id: 1,
+        src: '/images/blog-1.jpg',
+        alt: 'worthly-cyber-monday-fashion-from-casmart',
+        label: 'Worthly Cyber Monday Fashion From Casmart',
+        dateTime: '2021-03-31',
+        dateOfPublish: '31 Mar 2021',
+        topic: 'Fashion'
+    },
+    {
+        id: 2,
+        src: '/images/blog-2.jpg',
+        alt: 'holiday-home-Decoration-Ive-recently-ordered',
+        label: 'Holiday Home Decoration I have Recently Ordered',
+        dateTime: '2022-04-31',
+        dateOfPublish: '31 April 2022',
+        topic: 'Design'
+    },
+    {
+        id: 3,
+        src: '/images/blog-3.jpg',
+        alt: 'unique-ideas-for-fashion-you-have-not-heard-yet',
+        label: 'Unique Ideas For Fashion You Have not heard yet',
+        dateTime: '2023-05-31',
+        dateOfPublish: '31 May 2023',
+        topic: 'Moda'
+    }
+]
 
 export const keys = {
     ESC: 'Escape'

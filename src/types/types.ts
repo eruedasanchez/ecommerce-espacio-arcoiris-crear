@@ -114,16 +114,30 @@ export interface CardActionsProps {
     activeCardActions: boolean;
 }
 
+/*--------------------------------------*\
+    #BLOG SECTION TYPES & INTERFACES
+\*--------------------------------------*/
 
+export interface BlogCardProps {
+    src: string;
+    alt: string;
+    dateTime: string;
+    dateOfPublish: string;
+    label: string;
+    topic: string;
+}
 
+export interface CardBannerBlogProps{
+    src: string;
+    alt: string;
+}
 
-
-
-
-
-
-
-
+export interface CardContentBlogProps{
+    dateTime: string;
+    dateOfPublish: string;
+    label: string;
+    topic: string;
+}
 
 
 
